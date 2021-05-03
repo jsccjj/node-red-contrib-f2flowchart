@@ -1,0 +1,62 @@
+{
+    "common": {
+        "label": {
+            "payload": "Payload",
+            "topic": "Topic",
+            "name": "Name",
+            "username": "Username",
+            "password": "Password",
+            "property": "Property",
+            "selectNodes": "Select nodes...",
+            "expand": "Expand"
+        },
+        "status": {
+            "connected": "connected",
+            "not-connected": "not connected",
+            "disconnected": "disconnected",
+            "connecting": "connecting",
+            "error": "error",
+            "ok": "OK"
+        },
+        "notification": {
+            "error": "<strong>Error</strong>: __message__",
+            "errors": {
+                "not-deployed": "node not deployed",
+                "no-response": "no response from server",
+                "unexpected": "unexpected error (__status__) __message__"
+            }
+        },
+        "errors": {
+            "nooverride": "Warning: msg properties can no longer override set node properties. See bit.ly/nr-override-msg-props"
+        }
+    },
+    "function": {
+        "function": "",
+        "label": {
+            "setup": "Setup",
+            "function": "On Message",
+            "initialize": "On Start",
+            "finalize": "On Stop",
+            "outputs": "Outputs",
+            "modules": "Modules"
+        },
+        "text": {
+            "initialize": "// Code added here will be run once\n// whenever the node is started.\n",
+            "finalize": "// Code added here will be run when the\n// node is being stopped or re-deployed.\n"
+        },
+        "require": {
+            "var": "variable",
+            "module": "module"
+        },
+        "error": {
+            "externalModuleNotAllowed": "Function node not allowed to load external modules",
+            "moduleNotAllowed": "Module __module__ not allowed",
+            "externalModuleLoadError": "Function node failed to load external modules",
+            "moduleLoadError": "Failed to load module __module__: __error__",
+            "moduleNameError": "Invalid module variable name: __name__",
+            "moduleNameReserved": "Reserved variable name: __name__",
+            "inputListener":"Cannot add listener to 'input' event within Function",
+            "non-message-returned":"Function tried to send a message of type __type__"
+        }
+    }
+}
