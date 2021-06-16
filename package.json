@@ -16,6 +16,14 @@
   ],
   "author": "Jeff SC Cheng",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jsccjj/node-red-contrib-f2flowchart/issues"
+  },
+  "homepage": "https://github.com/jsccjj/node-red-contrib-f2flowchart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsccjj/node-red-contrib-f2flowchart"
+  },
   "node-red" : {
     "nodes": {
       "f2flowchart": "f2flowchart.js"
